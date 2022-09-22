@@ -1,0 +1,58 @@
+h2 {
+  font-size: 14px !important;
+  font-family: "Roboto";
+  font-weight: 700 !important;
+  color: #171717;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#rectangle {
+  width: 10px;
+  height: 20px;
+  background-color: #f17228;
+}
+#buttonSmall {
+  border: none;
+  background-color: white;
+  color: #f17228;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  #rectangle {
+    height: 28px;
+  }
+  h2 {
+    font-size: 16px !important;
+  }
+  #buttonWindow {
+    background-color: #f17228;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1140px) {
+  #rectangle {
+    height: 30px;
+  }
+  h2 {
+    font-size: 20px !important;
+    font-weight: 700;
+  }
+  #buttonWindow {
+    background-color: #f17228;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 14px;
+    width: 180px;
+  }
+} ;

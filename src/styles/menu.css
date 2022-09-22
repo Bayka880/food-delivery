@@ -1,0 +1,140 @@
+#btn1 {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  background: #f17228;
+  border-radius: 15px;
+  padding: 10px 10px;
+  width: 110px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#btn2 {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  box-shadow: 0px 0px 2px rgba(241, 114, 40, 0.5);
+  color: #f17228;
+  border: 0.1px solid rgba(241, 114, 40, 0.2);
+  border-radius: 15px;
+  padding: 10px 10px;
+  width: 110px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+.swiper-slide {
+  width: 34% !important;
+  margin-right: 0px !important;
+}
+
+@media (max-width: 768px) {
+  .tablet-desktop {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .tablet-desktop {
+    display: block;
+  }
+  .phone {
+    display: none;
+  }
+  #btn1 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    background: #f17228;
+    border-radius: 15px;
+    margin: 5px;
+    width: 200px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  #btn2 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid #ffd7bf;
+    box-shadow: none;
+    border-radius: 15px;
+    width: 200px;
+    margin: 5px;
+    color: black;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .swiper-slide {
+    width: 35% !important;
+    margin-right: 0px !important;
+  }
+}
+
+@media (min-width: 1240px) {
+  #btn1 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    background: #f17228;
+    border-radius: 15px;
+    margin: 5px;
+    width: 200px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #btn2 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid #ffd7bf;
+    box-shadow: none;
+    border-radius: 15px;
+    width: 200px;
+    margin: 5px;
+    color: black;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

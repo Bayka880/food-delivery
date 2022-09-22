@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11d4f0f6.css",
+    "main.js": "/static/js/main.336725d8.js",
+    "static/media/bannerfood.png": "/static/media/bannerfood.dd7b34e58801ed9ce0ff.png",
+    "static/media/base.png": "/static/media/base.98f929a44b92b15ce64e.png",
+    "static/media/banner3cofe.png": "/static/media/banner3cofe.003ca8b440e8798c3333.png",
+    "static/media/base.feature.png": "/static/media/base.feature.8218a6d3e9cf036af522.png",
+    "static/media/footer-background.png": "/static/media/footer-background.1ecec9a10c949bf2489d.png",
+    "static/media/search.svg": "/static/media/search.eb8722f612d25d48baec.svg",
+    "static/media/cancel.svg": "/static/media/cancel.4e610b6d1d1c523f1842.svg",
+    "static/media/close.svg": "/static/media/close.aa6039eba61531c880e1.svg",
+    "index.html": "/index.html",
+    "static/media/orderplace.svg": "/static/media/orderplace.15f1ed9e90417410ec57.svg",
+    "main.11d4f0f6.css.map": "/static/css/main.11d4f0f6.css.map",
+    "main.336725d8.js.map": "/static/js/main.336725d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11d4f0f6.css",
+    "static/js/main.336725d8.js"
+  ]
+}

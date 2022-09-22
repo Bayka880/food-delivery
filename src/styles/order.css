@@ -1,0 +1,243 @@
+.order-section-contents {
+  min-height: 100vh;
+}
+.userorder,
+.sent-order {
+  margin: 10px;
+}
+.step {
+  display: none;
+}
+.verify {
+  padding: 10px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.payment-section {
+  max-width: 220px;
+}
+.borderBot {
+  border-bottom: 1px solid #f3f3f3;
+}
+.bg {
+  background-image: url(/public/images/icons/orderplace.svg);
+  background-repeat: no-repeat;
+  text-indent: 10px;
+  background-position: 5px;
+  background-color: #f17228;
+  font-size: 12px;
+  font-weight: 600;
+}
+#order-button {
+  width: 100%;
+  padding: 13px;
+  background: #f17228;
+  color: white;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  min-width: 290px;
+  border-radius: 10px;
+}
+.phone-number-field::placeholder {
+  font-size: 12px;
+  padding-left: 20px;
+}
+.more-address::placeholder {
+  font-size: 12px;
+  padding-left: 30px;
+  vertical-align: text-top;
+}
+.CashOrCard {
+  font-size: 14px;
+  padding-left: 10px;
+}
+#close-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.food-price {
+  color: #f17228;
+}
+.order-place,
+.location-more,
+.phone-number,
+.payment {
+  font-weight: 600;
+  font-size: 14px;
+  color: #f17228;
+}
+.more-address {
+  border: 1px solid #b5b5b5;
+  border-radius: 10px;
+  margin: 1px;
+  padding: 1px;
+  min-height: 130px;
+  text-align: left;
+  vertical-align: text-top;
+}
+.phone-number-field {
+  border: 1px solid #b5b5b5;
+  border-radius: 10px;
+}
+.total-price {
+  max-width: 365px;
+  text-align: end;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .userorder {
+    margin: 10px;
+  }
+  .food-price {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .total-price {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .food-name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .step {
+    background: #f17228;
+    color: white;
+    padding: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 20px;
+    display: inline;
+  }
+  .verify {
+    padding: 50px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    height: 650px;
+  }
+  .borderBot {
+    border-bottom: 1px solid #f3f3f3;
+  }
+  .phone-number-field {
+    min-height: 40px;
+  }
+  #order-button {
+    width: 100%;
+    padding: 13px;
+    background: #f17228;
+    color: white;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    margin: auto;
+  }
+
+  #close-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+  .verify1 {
+    padding: 0 20px 0 0;
+    height: 750px;
+    border: none;
+  }
+  .border2 {
+    box-shadow: 6px 0 5px -5px rgba(0, 0, 0, 0.05);
+  }
+  .border3 {
+    border-bottom: 1px solid #f3f3f3;
+  }
+  .textOrder {
+    display: none;
+  }
+  .image-good {
+    width: 35px;
+    height: 35px;
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 10px;
+  }
+  .font {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .font1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+  }
+  .font2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    color: #f17228;
+  }
+  .font3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .font4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #b5b5b5;
+  }
+  .font5 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .font6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (min-width: 1240px) {
+  .verify {
+    padding: 50px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    height: 750px;
+  }
+  .phone-number-field::placeholder,
+  .more-address::placeholder,
+  .bg {
+    font-size: 14px;
+  }
+}

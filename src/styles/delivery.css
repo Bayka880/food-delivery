@@ -1,0 +1,61 @@
+#map {
+  width: 100%;
+  min-height: 50vh;
+}
+#rectangle {
+  width: 10px;
+  height: 20px;
+  background-color: #f17228;
+}
+.asection {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.asection hr {
+  opacity: 0.2;
+  border: 1px solid #f2994a;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+.mapSection {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+}
+.deliveryzone {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  color: #f17228;
+}
+@media (min-width: 768px) {
+  .deliveryzone1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+  }
+  #rectangle {
+    height: 30px;
+  }
+  .tabletdel {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    min-width: 100%;
+    margin: auto;
+  }
+  .deliveryzonea {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .locations {
+    color: #f17228;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+  }
+}

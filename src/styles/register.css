@@ -1,0 +1,100 @@
+.logframe {
+  width: 8px;
+  height: 20px;
+  background-color: #f17228;
+}
+.logintit {
+  font-size: 18px;
+  font-weight: 600 bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding-left: 1px;
+}
+.inputframe {
+  border: solid 1px #ffd7bf;
+  border-radius: 16px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 17px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+.nameTit {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+
+.loginbut {
+  align-items: center;
+  border-radius: 20px;
+  width: 90%;
+  background-color: #f17228;
+  border: 1px solid #f17228;
+  text-transform: uppercase;
+  height: 48px;
+}
+.loginbut:focus {
+  background-color: #f17228;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.loginbut:active {
+  background-color: #fff;
+  color: #f17228;
+  border: 1px solid #f17228;
+}
+.orbut {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  border: none;
+  background-color: white;
+  color: grey;
+  padding-left: 170px;
+}
+.signbut {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  border-radius: 20px;
+  width: 90%;
+  color: #f17228;
+  background-color: #fff;
+  border: 1px solid #f17228;
+  text-transform: uppercase;
+  height: 48px;
+  margin-bottom: 10%;
+}
+.forgotpasstit {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: right;
+  color: black;
+}
+.termBut {
+  font-size: 12px;
+  text-align: center;
+  color: #f17228;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label::after {
+  background-color: #f17228;
+}
+.custom-checkbox label::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #f17228;
+  background-color: white;
+  left: calc(-14px - 0.875rem);
+  border-radius: 4px;
+}

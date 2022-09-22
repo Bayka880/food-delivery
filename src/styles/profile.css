@@ -1,0 +1,55 @@
+.user-profile {
+  width: 30vw;
+  margin: auto;
+  height: 68vh;
+  padding-top: 10vh;
+}
+.user-profile div {
+  display: flex;
+  margin-bottom: 30px;
+}
+.user-profile div div {
+  width: 9px;
+  height: 32px;
+  background-color: #f17228;
+}
+.user-profile p {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.profile-form label {
+  font-size: 14px;
+  font-weight: 250;
+  margin-left: 10px;
+}
+.profile-form input {
+  border: 1px solid #ffd7bf;
+  border-radius: 16px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  text-indent: 10px;
+  height: 40px;
+}
+.profile-form button {
+  margin-top: 40px;
+  background-color: #f17228;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 40px;
+}
+.web-button {
+  background-color: white !important;
+  color: #f17228 !important;
+  outline: none !important;
+  border: none !important;
+}
+@media screen and (max-width: 767px) {
+  .user-profile {
+    width: 100%;
+  }
+}

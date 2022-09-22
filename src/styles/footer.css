@@ -1,0 +1,104 @@
+.vamos div div {
+  width: 11px;
+  height: 30px;
+  background: rgba(241, 114, 40, 1);
+}
+.vamos div {
+  display: flex;
+  align-items: center;
+}
+.vamos div p {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.logos p {
+  font-size: 12px;
+}
+.footer {
+  background-image: url(/public/images/pictures/footer-background.png);
+  width: 100vw;
+  margin-top: auto;
+  color: #ffff;
+}
+.phone a {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffff;
+  line-height: 30px;
+}
+.set a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffff;
+  line-height: 30px;
+  text-decoration: none;
+}
+.footerExpo a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffff;
+}
+@media (min-width: 768px) {
+  .footerLogo {
+    height: 40px;
+    margin-top: 5%;
+  }
+  .book {
+    min-width: 100px;
+  }
+  .book a {
+    margin-top: -20px;
+  }
+  .expo {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1140px) {
+  .footerLogo img {
+    width: 40px;
+    height: 40px;
+  }
+  .hres {
+    margin-left: 5%;
+    margin-right: 10%;
+    background-color: white;
+  }
+  .expo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffff;
+  }
+  .footer a:hover {
+    color: #ffff;
+    text-decoration: none;
+  }
+}
+.vamos {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  min-height: 74vh;
+}
+.vamos h1 {
+  color: rgba(241, 114, 40, 1);
+}
+.container {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.container h1 {
+  color: rgba(241, 114, 40, 1);
+}
+.terms {
+  min-height: 74vh;
+}
